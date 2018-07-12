@@ -41,7 +41,9 @@ public class GitUtil {
     }
 
     public static List<Owner> getFollowingList(String username,String token){
-        TOKEN=TOKEN+token;
+        if (TOKEN.equals("?access_token=")){
+            TOKEN=TOKEN+token;
+        }
         GitUtil gitUtil=new GitUtil();
         String content=gitUtil.getFollowing(username);
         List<Owner> owners=gitUtil.getFollowingOwnerObject(content);
