@@ -23,13 +23,14 @@ import java.util.List;
  */
 public class GitUtil {
     private static final String URL_HEAD="https://api.github.com/users/";
+    private static String TOKEN="?access_token=";
 
-    public static List<Repository> getFollowingRepo(String username){
-        List<Owner> owners=getFollowingList(username);
+    public static List<Repository> getFollowingRepo(String username,String token){
+        List<Owner> owners=getFollowingList(username,token);
         List<Repository> repositories=new ArrayList<Repository>();
         for (Owner owner:owners){
 //            System.out.println(owner.getLogin());
-            List<Repository> repositoriesOwner=getRepositoryLists(owner.getLogin());
+            List<Repository> repositoriesOwner=getRepositoryLists(owner.getLogin(),token);
             for (Repository repository:repositoriesOwner){
                 repositories.add(repository);
 //                System.out.println(repository.getName());
@@ -39,14 +40,18 @@ public class GitUtil {
         return repositories;
     }
 
-    public static List<Owner> getFollowingList(String username){
+    public static List<Owner> getFollowingList(String username,String token){
+        TOKEN=TOKEN+token;
         GitUtil gitUtil=new GitUtil();
         String content=gitUtil.getFollowing(username);
         List<Owner> owners=gitUtil.getFollowingOwnerObject(content);
         return owners;
     }
 
-    public static List<Repository> getRepositoryLists(String username){
+    public static List<Repository> getRepositoryLists(String username,String token){
+        if (TOKEN.equals("?access_token=")){
+            TOKEN=TOKEN+token;
+        }
         GitUtil gitUtil=new GitUtil();
         String content=gitUtil.getRepositories(username);
         List<Repository> repositories=gitUtil.getRepositoriesObject(content);
@@ -56,7 +61,7 @@ public class GitUtil {
 //    获取git个人respositories数据
     public String getRepositories(String username){
         String content="";
-        String url=URL_HEAD+username+"/repos";
+        String url=URL_HEAD+username+"/repos"+TOKEN;
         CloseableHttpClient httpclient = HttpClients.createDefault();
         content=getString(url, httpclient);
         return content;
@@ -250,7 +255,7 @@ public class GitUtil {
     //    获取git个人following数据
     public String getFollowing(String username){
         String content="";
-        String url=URL_HEAD+username+"/following";
+        String url=URL_HEAD+username+"/following"+TOKEN;
         CloseableHttpClient httpclient = HttpClients.createDefault();
         content=getString(url, httpclient);
         return content;
