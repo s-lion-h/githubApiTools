@@ -74,4 +74,12 @@ public class Demo {
         }
         System.out.println(repositories.toString());
     }
+
+    @Test
+    public void threadDemo() throws ExecutionException, InterruptedException {
+        List<Repository> repositories=GitUtil.getThreadFollowingRepo("s-lion-h","");
+        for (Repository repository:repositories){
+            System.out.println(repository);
+        }
+    }
 }

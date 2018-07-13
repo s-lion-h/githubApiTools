@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b79d6604-1932-49cf-b6a5-09493b181c24" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -96,8 +94,8 @@
       <file leaf-file-name="GitUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="-307">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1060#1072#0" expanded="true" />
@@ -346,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo.threadFollowingRepoDemo">
+  <component name="RunManager" selected="JUnit.Demo.threadDemo">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Test" />
       <module name="githubApi" />
@@ -384,29 +382,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Demo.getFollowingRepoDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="githubApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.slionh.githubApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.slionh.githubApi" />
-      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Demo" />
-      <option name="METHOD_NAME" value="getFollowingRepoDemo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Demo.repositoriesDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="githubApi" />
       <extension name="coverage">
@@ -420,6 +395,29 @@
       <option name="PACKAGE_NAME" value="com.slionh.githubApi" />
       <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Demo" />
       <option name="METHOD_NAME" value="repositoriesDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Demo.threadDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="githubApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slionh.githubApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.slionh.githubApi" />
+      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Demo" />
+      <option name="METHOD_NAME" value="threadDemo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -494,17 +492,17 @@
     <list>
       <item itemvalue="JUnit.Demo.repositoriesDemo" />
       <item itemvalue="JUnit.Demo.followingDemo" />
-      <item itemvalue="JUnit.Demo.getFollowingRepoDemo" />
       <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.Demo.threadFollowingRepoDemo" />
+      <item itemvalue="JUnit.Demo.threadDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo.threadDemo" />
         <item itemvalue="JUnit.Demo.threadFollowingRepoDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Demo.repositoriesDemo" />
         <item itemvalue="JUnit.Demo.followingDemo" />
-        <item itemvalue="JUnit.Demo.getFollowingRepoDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +525,7 @@
       <workItem from="1531411860105" duration="185000" />
       <workItem from="1531412468945" duration="1442000" />
       <workItem from="1531447875589" duration="6840000" />
-      <workItem from="1531472189029" duration="1936000" />
+      <workItem from="1531472189029" duration="3578000" />
     </task>
     <servers />
   </component>
@@ -564,7 +562,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32743000" />
+    <option name="totallyTimeSpent" value="34385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,10 +588,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.63465786" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.57442117" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5739514" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28379828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28379828" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1497,8 +1495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="-307">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1060#1072#0" expanded="true" />

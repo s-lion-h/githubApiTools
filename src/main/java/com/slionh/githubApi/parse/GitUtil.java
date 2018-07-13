@@ -49,9 +49,11 @@ public class GitUtil {
         // 获取所有并发任务的运行结果
         for (Future f : list) {
             List<Repository> repositories2= (List<Repository>) f.get();
-//            for (Repository repository:repositories2)
-            // 从Future对象上获取任务的返回值，并输出到控制台
-//            System.out.println(">>>" + f.get().toString());
+            for (Repository repository:repositories2) {
+                // 从Future对象上获取任务的返回值，并输出到控制台
+//                System.out.println(">>>" + f.get().toString());
+                repositories.add(repository);
+            }
         }
 //        System.out.println(repositories.toString());
         return repositories;
@@ -104,22 +106,22 @@ public class GitUtil {
         try {
             // 创建httpget.
             HttpGet httpget = new HttpGet(url);
-            System.out.println("------------------------------------");
+//            System.out.println("------------------------------------");
 //            httpget.setHeader("Cookie",COOKIES);
-            System.out.println("executing request " + httpget.getURI());
+//            System.out.println("executing request " + httpget.getURI());
             // 执行get请求.
             CloseableHttpResponse response = httpclient.execute(httpget);
             try {
                 // 获取响应实体
                 HttpEntity entity = response.getEntity();
                 // 打印响应状态
-                System.out.println(response.getStatusLine());
+//                System.out.println(response.getStatusLine());
                 if (entity != null) {
                     // 打印响应内容长度
-                    System.out.println("Response content length: " + entity.getContentLength());
+//                    System.out.println("Response content length: " + entity.getContentLength());
                     content=EntityUtils.toString(entity);
                 }
-                System.out.println("------------------------------------");
+//                System.out.println("------------------------------------");
             } finally {
                 response.close();
             }
