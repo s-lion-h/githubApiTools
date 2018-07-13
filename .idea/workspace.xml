@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b79d6604-1932-49cf-b6a5-09493b181c24" name="Default" comment="" />
+    <list default="true" id="b79d6604-1932-49cf-b6a5-09493b181c24" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +17,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="176">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1649#1661#0" expanded="true" />
+                <element signature="e#1829#1837#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java">
+      <file leaf-file-name="Future.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Future.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+            <state relative-caret-position="1364">
+              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GitThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,20 +96,14 @@
       <file leaf-file-name="GitUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="293">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1060#1072#0" expanded="true" />
+                <element signature="e#1307#1315#0" expanded="true" />
+                <element signature="e#1044#1056#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -183,6 +209,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -194,8 +225,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/po/Repository.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/target/token" />
-        <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java" />
       </list>
     </option>
   </component>
@@ -229,9 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,6 +324,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +346,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo.repositoriesDemo">
+  <component name="RunManager" selected="JUnit.Demo.threadFollowingRepoDemo">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Test" />
+      <module name="githubApi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slionh.githubApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -386,42 +430,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GitUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo.threadFollowingRepoDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="githubApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slionh.githubApi.parse.*" />
+          <option name="PATTERN" value="com.slionh.githubApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.slionh.githubApi.parse" />
-      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.parse.GitUtil" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GitUtil.getFollowingRepo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="githubApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.slionh.githubApi.parse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.slionh.githubApi.parse" />
-      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.parse.GitUtil" />
-      <option name="METHOD_NAME" value="getFollowingRepo" />
+      <option name="PACKAGE_NAME" value="com.slionh.githubApi" />
+      <option name="MAIN_CLASS_NAME" value="com.slionh.githubApi.Demo" />
+      <option name="METHOD_NAME" value="threadFollowingRepoDemo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -473,17 +494,17 @@
     <list>
       <item itemvalue="JUnit.Demo.repositoriesDemo" />
       <item itemvalue="JUnit.Demo.followingDemo" />
-      <item itemvalue="JUnit.GitUtil" />
-      <item itemvalue="JUnit.GitUtil.getFollowingRepo" />
       <item itemvalue="JUnit.Demo.getFollowingRepoDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.Demo.threadFollowingRepoDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo.threadFollowingRepoDemo" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Demo.repositoriesDemo" />
         <item itemvalue="JUnit.Demo.followingDemo" />
         <item itemvalue="JUnit.Demo.getFollowingRepoDemo" />
-        <item itemvalue="JUnit.GitUtil.getFollowingRepo" />
-        <item itemvalue="JUnit.GitUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -503,28 +524,14 @@
       <workItem from="1531321839141" duration="2965000" />
       <workItem from="1531357654009" duration="3888000" />
       <workItem from="1531398617767" duration="3783000" />
+      <workItem from="1531411860105" duration="185000" />
+      <workItem from="1531412468945" duration="1442000" />
+      <workItem from="1531447875589" duration="6840000" />
+      <workItem from="1531472189029" duration="1936000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_repositoriesDemo - 2018.07.12 at 21h 01m 56s.xml">
-      <configuration name="Demo.repositoriesDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_getFollowingRepoDemo - 2018.07.12 at 21h 02m 01s.xml">
-      <configuration name="Demo.getFollowingRepoDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_getFollowingRepoDemo - 2018.07.12 at 21h 04m 08s.xml">
-      <configuration name="Demo.getFollowingRepoDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_getFollowingRepoDemo - 2018.07.12 at 21h 04m 56s.xml">
-      <configuration name="Demo.getFollowingRepoDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_repositoriesDemo - 2018.07.12 at 21h 05m 34s.xml">
-      <configuration name="Demo.repositoriesDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_followingDemo - 2018.07.12 at 21h 05m 41s.xml">
-      <configuration name="Demo.followingDemo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_getFollowingRepoDemo - 2018.07.12 at 21h 06m 40s.xml">
       <configuration name="Demo.getFollowingRepoDemo" configurationId="JUnit" />
     </history-entry>
@@ -537,9 +544,27 @@
     <history-entry file="Demo_repositoriesDemo - 2018.07.12 at 21h 09m 40s.xml">
       <configuration name="Demo.repositoriesDemo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 15h 59m 13s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 16h 19m 10s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 16h 20m 38s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 17h 07m 12s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 17h 10m 26s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_threadFollowingRepoDemo - 2018.07.13 at 17h 12m 11s.xml">
+      <configuration name="Demo.threadFollowingRepoDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22340000" />
+    <option name="totallyTimeSpent" value="32743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,17 +585,16 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3289183" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.63465786" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5750552" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.57442117" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28379828" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -582,6 +606,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,6 +616,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -604,6 +642,8 @@
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,6 +661,9 @@
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -740,6 +783,8 @@
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -852,6 +897,9 @@
           <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,6 +917,8 @@
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -981,6 +1031,9 @@
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -998,6 +1051,8 @@
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,6 +1165,9 @@
           <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1127,6 +1185,8 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1239,6 +1299,9 @@
           <caret line="196" column="27" lean-forward="true" selection-start-line="196" selection-start-column="27" selection-end-line="196" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1259,7 +1322,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="2420">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
@@ -1289,10 +1352,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/po/Repository.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/token">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1377,24 +1447,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="946">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/token">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-end-column="40" />
+        <state relative-caret-position="1364">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/po/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="176">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1649#1661#0" expanded="true" />
+            <element signature="e#1829#1837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1403,10 +1497,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/githubApi/parse/GitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="293">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1060#1072#0" expanded="true" />
+            <element signature="e#1307#1315#0" expanded="true" />
+            <element signature="e#1044#1056#0" expanded="true" />
           </folding>
         </state>
       </provider>

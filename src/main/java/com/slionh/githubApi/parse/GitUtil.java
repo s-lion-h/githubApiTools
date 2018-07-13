@@ -17,6 +17,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.*;
 
 /*
  * Create by s lion h on 2018/7/11
@@ -25,17 +26,45 @@ public class GitUtil {
     private static final String URL_HEAD="https://api.github.com/users/";
     private static String TOKEN="?access_token=";
 
+    public static List<Repository> getThreadFollowingRepo(String username,String token) throws ExecutionException, InterruptedException {
+        List<Owner> owners=GitUtil.getFollowingList(username,token);
+        List<Repository> repositories=new ArrayList<Repository>();
+
+//        System.out.println("开始执行线程");
+        int taskSize = owners.size();
+        // 创建一个线程池
+        ExecutorService pool = Executors.newFixedThreadPool(taskSize);
+        // 创建多个有返回值的任务
+        List<Future> list = new ArrayList<Future>();
+
+        int taskNum=1;
+        for (Owner owner:owners){
+            Callable c = new GitThread(taskNum+"", owner.getLogin());
+            // 执行任务并获取Future对象
+            Future f = pool.submit(c);
+            list.add(f);
+        }
+        // 关闭线程池
+        pool.shutdown();
+        // 获取所有并发任务的运行结果
+        for (Future f : list) {
+            List<Repository> repositories2= (List<Repository>) f.get();
+//            for (Repository repository:repositories2)
+            // 从Future对象上获取任务的返回值，并输出到控制台
+//            System.out.println(">>>" + f.get().toString());
+        }
+//        System.out.println(repositories.toString());
+        return repositories;
+    }
+
     public static List<Repository> getFollowingRepo(String username,String token){
         List<Owner> owners=getFollowingList(username,token);
         List<Repository> repositories=new ArrayList<Repository>();
         for (Owner owner:owners){
-//            System.out.println(owner.getLogin());
             List<Repository> repositoriesOwner=getRepositoryLists(owner.getLogin(),token);
             for (Repository repository:repositoriesOwner){
                 repositories.add(repository);
-//                System.out.println(repository.getName());
             }
-//            System.out.println("------------------------------------");
         }
         return repositories;
     }
@@ -229,7 +258,6 @@ public class GitUtil {
         for (int i=0;i<length;i++){
             Owner owner;
             JSONObject jsonObject=jsonArray.getJSONObject(i);
-//            JSONObject ownerObject=jsonObject.getJSONObject("owner");
             owner=new Owner(jsonObject.getString("login") ,
                     jsonObject.getInt("id"),
                     jsonObject.getString("node_id") ,
